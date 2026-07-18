@@ -1,0 +1,15 @@
+# Google Colab runtime dependencies
+torch>=2.4
+torchvision>=0.19
+numpy>=2.0
+pandas>=2.2
+scikit-learn>=1.5
+matplotlib>=3.9
+pillow>=10.4
+pyyaml>=6.0
+tqdm>=4.66
+jupyter>=1.1
+ipykernel>=6.29
+pytest>=8.3
+ruff>=0.7
+

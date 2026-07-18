@@ -1,0 +1,64 @@
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Environments and local Python distributions
+.venv/
+venv/
+env/
+.env/
+.python/
+*.egg-info/
+build/
+dist/
+
+# Editors, operating systems, and notebooks
+.DS_Store
+.idea/
+.vscode/
+*.code-workspace
+.ipynb_checkpoints/
+
+# Secrets and service credentials
+.env
+.env.*
+!.env.example
+*credentials*.json
+*service-account*.json
+kaggle.json
+client_secret*.json
+token.json
+
+# Datasets and generated image collections (retain placeholder files only)
+data/raw/**
+!data/raw/.gitkeep
+data/processed/**
+!data/processed/.gitkeep
+data/generated/**
+!data/generated/.gitkeep
+
+# Training outputs and binary model artifacts
+artifacts/checkpoints/**
+!artifacts/checkpoints/.gitkeep
+artifacts/models/**
+!artifacts/models/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Generated reports and logs
+reports/figures/**
+!reports/figures/.gitkeep
+logs/
+runs/
+wandb/
+tensorboard/
+

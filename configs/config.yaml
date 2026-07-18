@@ -1,0 +1,12 @@
+random_seed: 42
+train_ratio: 0.70
+test_ratio: 0.30
+low_resolution_size: 32
+high_resolution_size: 128
+classifier_batch_size: 32
+srgan_batch_size: 16
+classifier_epochs: 20
+srgan_epochs: 150
+checkpoint_interval: 5
+num_workers: 2
+
