@@ -1,0 +1,1502 @@
+[
+  {
+    "discriminator_loss": 0.13929093973470963,
+    "generator_loss": 0.10475697125012007,
+    "pixel_loss": 0.10392871945669453,
+    "adversarial_loss": 0.8282517677050265,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 24.672267017238838,
+    "validation_ssim": 0.8085819789790315,
+    "epoch": 1.0
+  },
+  {
+    "discriminator_loss": 0.048763493740968514,
+    "generator_loss": 0.07536208914822357,
+    "pixel_loss": 0.07466962229471152,
+    "adversarial_loss": 0.6924668606893722,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 25.400343410062504,
+    "validation_ssim": 0.8297532100931548,
+    "epoch": 2.0
+  },
+  {
+    "discriminator_loss": 0.007026949886734301,
+    "generator_loss": 0.06859154046264966,
+    "pixel_loss": 0.06838909768016427,
+    "adversarial_loss": 0.2024427310358146,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 25.666056601579808,
+    "validation_ssim": 0.8390469586087721,
+    "epoch": 3.0
+  },
+  {
+    "discriminator_loss": 0.007451759598332652,
+    "generator_loss": 0.06502487227363368,
+    "pixel_loss": 0.06493020960500726,
+    "adversarial_loss": 0.09466269975021097,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 25.834137388506374,
+    "validation_ssim": 0.8439815058403595,
+    "epoch": 4.0
+  },
+  {
+    "discriminator_loss": 0.0011453100483474938,
+    "generator_loss": 0.06265348019905623,
+    "pixel_loss": 0.06261566274273703,
+    "adversarial_loss": 0.03781741020459159,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 25.920112745360978,
+    "validation_ssim": 0.8478335069742697,
+    "epoch": 5.0
+  },
+  {
+    "discriminator_loss": 0.016653117969002373,
+    "generator_loss": 0.06082980333050889,
+    "pixel_loss": 0.06070313782866158,
+    "adversarial_loss": 0.12666546739350984,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.046463864473175,
+    "validation_ssim": 0.8512815827457381,
+    "epoch": 6.0
+  },
+  {
+    "discriminator_loss": 0.07107394989473174,
+    "generator_loss": 0.05966442682510802,
+    "pixel_loss": 0.05950082241207959,
+    "adversarial_loss": 0.16360438281622178,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.136173504534646,
+    "validation_ssim": 0.847268113090124,
+    "epoch": 7.0
+  },
+  {
+    "discriminator_loss": 0.050660074702770924,
+    "generator_loss": 0.058412336509002315,
+    "pixel_loss": 0.05826074078380208,
+    "adversarial_loss": 0.15159569330577521,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.24778454981913,
+    "validation_ssim": 0.8562903376747018,
+    "epoch": 8.0
+  },
+  {
+    "discriminator_loss": 0.01633348864053555,
+    "generator_loss": 0.05756712643627109,
+    "pixel_loss": 0.057464685101051384,
+    "adversarial_loss": 0.10244139702536999,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.30753104319992,
+    "validation_ssim": 0.8563446206201014,
+    "epoch": 9.0
+  },
+  {
+    "discriminator_loss": 0.04309631131614764,
+    "generator_loss": 0.056726686733329194,
+    "pixel_loss": 0.056580116324404246,
+    "adversarial_loss": 0.14657030916401856,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.354530821827275,
+    "validation_ssim": 0.8567972303597847,
+    "epoch": 10.0
+  },
+  {
+    "discriminator_loss": 0.005962802795292996,
+    "generator_loss": 0.0560528240863095,
+    "pixel_loss": 0.05596785663192115,
+    "adversarial_loss": 0.08496743403695374,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.447927865624187,
+    "validation_ssim": 0.8586680497456608,
+    "epoch": 11.0
+  },
+  {
+    "discriminator_loss": 0.02321566336435989,
+    "generator_loss": 0.05553381771575072,
+    "pixel_loss": 0.05532758352706972,
+    "adversarial_loss": 0.2062341461358405,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.462388978104165,
+    "validation_ssim": 0.8617717457924009,
+    "epoch": 12.0
+  },
+  {
+    "discriminator_loss": 0.0053069474586528486,
+    "generator_loss": 0.055066131561311404,
+    "pixel_loss": 0.05485333530685963,
+    "adversarial_loss": 0.21279621970516904,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.481261851349796,
+    "validation_ssim": 0.8602233170199551,
+    "epoch": 13.0
+  },
+  {
+    "discriminator_loss": 0.0011711529105832336,
+    "generator_loss": 0.054397901655695156,
+    "pixel_loss": 0.05427718666998568,
+    "adversarial_loss": 0.12071501735202904,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.568606788877837,
+    "validation_ssim": 0.8637400926679023,
+    "epoch": 14.0
+  },
+  {
+    "discriminator_loss": 0.014721773993750943,
+    "generator_loss": 0.054326392844703614,
+    "pixel_loss": 0.05397535131918667,
+    "adversarial_loss": 0.3510414655451105,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.6060779323485,
+    "validation_ssim": 0.8638926609919495,
+    "epoch": 15.0
+  },
+  {
+    "discriminator_loss": 0.012833178732117216,
+    "generator_loss": 0.05388991863901772,
+    "pixel_loss": 0.053648872077892026,
+    "adversarial_loss": 0.2410465917627415,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.600863605609632,
+    "validation_ssim": 0.8649822315081113,
+    "epoch": 16.0
+  },
+  {
+    "discriminator_loss": 0.010968904866820953,
+    "generator_loss": 0.05323212759457208,
+    "pixel_loss": 0.053100765009749584,
+    "adversarial_loss": 0.13136259899354596,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.6346771624873,
+    "validation_ssim": 0.8649867885743128,
+    "epoch": 17.0
+  },
+  {
+    "discriminator_loss": 0.0015161778455944385,
+    "generator_loss": 0.052877072086904654,
+    "pixel_loss": 0.05280462332219312,
+    "adversarial_loss": 0.07244874363001916,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.706784888961124,
+    "validation_ssim": 0.8660960767884475,
+    "epoch": 18.0
+  },
+  {
+    "discriminator_loss": 0.0005587036962077865,
+    "generator_loss": 0.052448390629195894,
+    "pixel_loss": 0.05240289283259892,
+    "adversarial_loss": 0.04549780716975473,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.681048832797487,
+    "validation_ssim": 0.8643980553142665,
+    "epoch": 19.0
+  },
+  {
+    "discriminator_loss": 0.028439095436313847,
+    "generator_loss": 0.052380540582716975,
+    "pixel_loss": 0.05223260828878271,
+    "adversarial_loss": 0.1479323455220606,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.731364721420057,
+    "validation_ssim": 0.866357368833525,
+    "epoch": 20.0
+  },
+  {
+    "discriminator_loss": 0.0031621768144639824,
+    "generator_loss": 0.05219131861853395,
+    "pixel_loss": 0.05198628732715773,
+    "adversarial_loss": 0.20503129063328904,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.63462809756915,
+    "validation_ssim": 0.8594044735492454,
+    "epoch": 21.0
+  },
+  {
+    "discriminator_loss": 0.0016766979196976156,
+    "generator_loss": 0.05189308952166563,
+    "pixel_loss": 0.05165675402669647,
+    "adversarial_loss": 0.2363354789578812,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.76553744608678,
+    "validation_ssim": 0.8674508774051759,
+    "epoch": 22.0
+  },
+  {
+    "discriminator_loss": 0.0006888161372676236,
+    "generator_loss": 0.05161553127290868,
+    "pixel_loss": 0.05140352983529383,
+    "adversarial_loss": 0.2120013383534713,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.81067392376015,
+    "validation_ssim": 0.8676570371343972,
+    "epoch": 23.0
+  },
+  {
+    "discriminator_loss": 0.004672811064238054,
+    "generator_loss": 0.0514686911572358,
+    "pixel_loss": 0.05119353756735523,
+    "adversarial_loss": 0.27515363229123774,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.790268722354973,
+    "validation_ssim": 0.8680320139840967,
+    "epoch": 24.0
+  },
+  {
+    "discriminator_loss": 0.0005459489171089001,
+    "generator_loss": 0.051241214186977864,
+    "pixel_loss": 0.0510544665798246,
+    "adversarial_loss": 0.18674764752729575,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.83977365780614,
+    "validation_ssim": 0.8687089791409917,
+    "epoch": 25.0
+  },
+  {
+    "discriminator_loss": 0.0003201214250552076,
+    "generator_loss": 0.05093225700978222,
+    "pixel_loss": 0.05078876723660781,
+    "adversarial_loss": 0.14348975635189723,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.880982297636724,
+    "validation_ssim": 0.8695045229323919,
+    "epoch": 26.0
+  },
+  {
+    "discriminator_loss": 0.00019235417904281578,
+    "generator_loss": 0.05076415144483476,
+    "pixel_loss": 0.05064738788415163,
+    "adversarial_loss": 0.11676356338797121,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.857606020195032,
+    "validation_ssim": 0.8698823977868969,
+    "epoch": 27.0
+  },
+  {
+    "discriminator_loss": 0.003487872682397726,
+    "generator_loss": 0.050692331929688465,
+    "pixel_loss": 0.05046199944863005,
+    "adversarial_loss": 0.23033242971558968,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.860928301891807,
+    "validation_ssim": 0.8698850138861483,
+    "epoch": 28.0
+  },
+  {
+    "discriminator_loss": 0.0004946768592811592,
+    "generator_loss": 0.050516375468077836,
+    "pixel_loss": 0.05023293192671841,
+    "adversarial_loss": 0.2834435573023848,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.79634417629761,
+    "validation_ssim": 0.8683477832744471,
+    "epoch": 29.0
+  },
+  {
+    "discriminator_loss": 0.00025801451617910563,
+    "generator_loss": 0.050383455385280544,
+    "pixel_loss": 0.050184042971677285,
+    "adversarial_loss": 0.19941243612151432,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.89123750477389,
+    "validation_ssim": 0.8699440677812741,
+    "epoch": 30.0
+  },
+  {
+    "discriminator_loss": 0.0001304378975126065,
+    "generator_loss": 0.050020042759897375,
+    "pixel_loss": 0.04987586662600239,
+    "adversarial_loss": 0.14417610019872387,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.906222648587825,
+    "validation_ssim": 0.8705831286696164,
+    "epoch": 31.0
+  },
+  {
+    "discriminator_loss": 0.010459228087496646,
+    "generator_loss": 0.04994832654310161,
+    "pixel_loss": 0.04975993834158411,
+    "adversarial_loss": 0.1883881568716556,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.91033032356378,
+    "validation_ssim": 0.8709004136526424,
+    "epoch": 32.0
+  },
+  {
+    "discriminator_loss": 0.0015729922256038863,
+    "generator_loss": 0.050864121305054445,
+    "pixel_loss": 0.05014543959225146,
+    "adversarial_loss": 0.7186817459014904,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.91095666385455,
+    "validation_ssim": 0.869983735278492,
+    "epoch": 33.0
+  },
+  {
+    "discriminator_loss": 0.0003555895113282808,
+    "generator_loss": 0.050621907214466,
+    "pixel_loss": 0.04998930618807375,
+    "adversarial_loss": 0.6326009681709858,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.869987122823364,
+    "validation_ssim": 0.8701556141927638,
+    "epoch": 34.0
+  },
+  {
+    "discriminator_loss": 0.0001726568241099651,
+    "generator_loss": 0.05031735768973998,
+    "pixel_loss": 0.049762809522087045,
+    "adversarial_loss": 0.5545481106784077,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.95264763068552,
+    "validation_ssim": 0.8716277229994219,
+    "epoch": 35.0
+  },
+  {
+    "discriminator_loss": 8.971742485675902e-05,
+    "generator_loss": 0.050119686997722415,
+    "pixel_loss": 0.04962448064440642,
+    "adversarial_loss": 0.4952063041720486,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.957472544691687,
+    "validation_ssim": 0.8721777917286346,
+    "epoch": 36.0
+  },
+  {
+    "discriminator_loss": 0.0008785348551168226,
+    "generator_loss": 0.04990457961586622,
+    "pixel_loss": 0.04941779020693377,
+    "adversarial_loss": 0.4867893705651548,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.945222201165684,
+    "validation_ssim": 0.8717665652496636,
+    "epoch": 37.0
+  },
+  {
+    "discriminator_loss": 0.00018961584604699512,
+    "generator_loss": 0.04972369578002517,
+    "pixel_loss": 0.049354656096174246,
+    "adversarial_loss": 0.36903968174170626,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.975654696571354,
+    "validation_ssim": 0.8717638350803372,
+    "epoch": 38.0
+  },
+  {
+    "discriminator_loss": 8.240625863037716e-05,
+    "generator_loss": 0.04960740790582318,
+    "pixel_loss": 0.049341338341335174,
+    "adversarial_loss": 0.2660695574857444,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.996517494461727,
+    "validation_ssim": 0.8727504131412206,
+    "epoch": 39.0
+  },
+  {
+    "discriminator_loss": 3.979231363945783e-05,
+    "generator_loss": 0.04939284751613365,
+    "pixel_loss": 0.04910416521751095,
+    "adversarial_loss": 0.2886822160258676,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.991034003186453,
+    "validation_ssim": 0.8732294994655839,
+    "epoch": 40.0
+  },
+  {
+    "discriminator_loss": 3.161730053652405e-05,
+    "generator_loss": 0.04937512713636573,
+    "pixel_loss": 0.04905347708388522,
+    "adversarial_loss": 0.32165003596113884,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.03350331960179,
+    "validation_ssim": 0.8726063674106123,
+    "epoch": 41.0
+  },
+  {
+    "discriminator_loss": 2.990548580360898e-05,
+    "generator_loss": 0.049307952466871814,
+    "pixel_loss": 0.04894410646533898,
+    "adversarial_loss": 0.3638459694547776,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.987794070215152,
+    "validation_ssim": 0.8733263174704172,
+    "epoch": 42.0
+  },
+  {
+    "discriminator_loss": 2.685440904132908e-05,
+    "generator_loss": 0.04917860902781814,
+    "pixel_loss": 0.048838631550442525,
+    "adversarial_loss": 0.33997740307102314,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.98828092163663,
+    "validation_ssim": 0.8738781170905131,
+    "epoch": 43.0
+  },
+  {
+    "discriminator_loss": 0.007039351185755515,
+    "generator_loss": 0.04902851587337546,
+    "pixel_loss": 0.048665394559289116,
+    "adversarial_loss": 0.36312125338865897,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.035351043784217,
+    "validation_ssim": 0.8726379950249377,
+    "epoch": 44.0
+  },
+  {
+    "discriminator_loss": 0.00016579094868174015,
+    "generator_loss": 0.049000483407588266,
+    "pixel_loss": 0.04872736574969865,
+    "adversarial_loss": 0.2731177248039355,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.00476144316954,
+    "validation_ssim": 0.8727935158875159,
+    "epoch": 45.0
+  },
+  {
+    "discriminator_loss": 0.00011839150105213431,
+    "generator_loss": 0.048810843149877894,
+    "pixel_loss": 0.04859193311550556,
+    "adversarial_loss": 0.21890999261492644,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.01136992374487,
+    "validation_ssim": 0.8727926474114743,
+    "epoch": 46.0
+  },
+  {
+    "discriminator_loss": 7.490332873698583e-05,
+    "generator_loss": 0.048737405383569805,
+    "pixel_loss": 0.04853510994752362,
+    "adversarial_loss": 0.20229542385199692,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.015695912829102,
+    "validation_ssim": 0.8728602368249077,
+    "epoch": 47.0
+  },
+  {
+    "discriminator_loss": 4.894180759827754e-05,
+    "generator_loss": 0.04859417011710498,
+    "pixel_loss": 0.04840059433036342,
+    "adversarial_loss": 0.19357575375405286,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.004291396194322,
+    "validation_ssim": 0.8722460625063072,
+    "epoch": 48.0
+  },
+  {
+    "discriminator_loss": 3.4148801724562544e-05,
+    "generator_loss": 0.048667847945816536,
+    "pixel_loss": 0.048470569991194416,
+    "adversarial_loss": 0.197277920328102,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 26.97204620385368,
+    "validation_ssim": 0.8728258205634821,
+    "epoch": 49.0
+  },
+  {
+    "discriminator_loss": 2.1664397574417135e-05,
+    "generator_loss": 0.04850062843209351,
+    "pixel_loss": 0.048310456418547046,
+    "adversarial_loss": 0.19017200079722527,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.059457831381387,
+    "validation_ssim": 0.8742818211423261,
+    "epoch": 50.0
+  },
+  {
+    "discriminator_loss": 1.5936863066213784e-05,
+    "generator_loss": 0.04806513057269134,
+    "pixel_loss": 0.0478808691965304,
+    "adversarial_loss": 0.1842613779499401,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.070665042607295,
+    "validation_ssim": 0.8743459542376099,
+    "epoch": 51.0
+  },
+  {
+    "discriminator_loss": 1.2774608210403836e-05,
+    "generator_loss": 0.04791285803803059,
+    "pixel_loss": 0.04772686412862174,
+    "adversarial_loss": 0.1859938278239231,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.093319766946934,
+    "validation_ssim": 0.8752199809553288,
+    "epoch": 52.0
+  },
+  {
+    "discriminator_loss": 9.325344813612348e-06,
+    "generator_loss": 0.047906227352199036,
+    "pixel_loss": 0.04771792569910216,
+    "adversarial_loss": 0.18830162422534047,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.07694466262245,
+    "validation_ssim": 0.8749652391380173,
+    "epoch": 53.0
+  },
+  {
+    "discriminator_loss": 6.19921521387822e-06,
+    "generator_loss": 0.04783933942331626,
+    "pixel_loss": 0.047633292871850266,
+    "adversarial_loss": 0.20604649994810537,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.112438395862693,
+    "validation_ssim": 0.87569674684748,
+    "epoch": 54.0
+  },
+  {
+    "discriminator_loss": 4.394317275104744e-06,
+    "generator_loss": 0.04773560966068831,
+    "pixel_loss": 0.047558334839122,
+    "adversarial_loss": 0.17727480437232976,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.103025412361454,
+    "validation_ssim": 0.8756733073508012,
+    "epoch": 55.0
+  },
+  {
+    "discriminator_loss": 3.5864400506736723e-06,
+    "generator_loss": 0.04767846063547968,
+    "pixel_loss": 0.04751197423326935,
+    "adversarial_loss": 0.16648629904220302,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.127991111119407,
+    "validation_ssim": 0.875508323503886,
+    "epoch": 56.0
+  },
+  {
+    "discriminator_loss": 3.838649222299009e-06,
+    "generator_loss": 0.04765879071202866,
+    "pixel_loss": 0.04748690849260819,
+    "adversarial_loss": 0.17188222053057825,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.114880924885952,
+    "validation_ssim": 0.8752001854861852,
+    "epoch": 57.0
+  },
+  {
+    "discriminator_loss": 1.9537866973273085e-06,
+    "generator_loss": 0.047531264379919426,
+    "pixel_loss": 0.04739328229367562,
+    "adversarial_loss": 0.1379820383081805,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.116863473101628,
+    "validation_ssim": 0.8757171133840982,
+    "epoch": 58.0
+  },
+  {
+    "discriminator_loss": 1.541285446807802e-06,
+    "generator_loss": 0.04746974314693735,
+    "pixel_loss": 0.04735036684696517,
+    "adversarial_loss": 0.1193763293496688,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.13063104389664,
+    "validation_ssim": 0.876418499593508,
+    "epoch": 59.0
+  },
+  {
+    "discriminator_loss": 1.0292295665191722e-06,
+    "generator_loss": 0.04734544896635422,
+    "pixel_loss": 0.04724267999772356,
+    "adversarial_loss": 0.10276898857857232,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.137451901267845,
+    "validation_ssim": 0.8761535142117536,
+    "epoch": 60.0
+  },
+  {
+    "discriminator_loss": 6.955336926794476e-07,
+    "generator_loss": 0.047307893828112624,
+    "pixel_loss": 0.047217379179502965,
+    "adversarial_loss": 0.09051466641632738,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.164315107045628,
+    "validation_ssim": 0.8755039471638848,
+    "epoch": 61.0
+  },
+  {
+    "discriminator_loss": 4.6127822399003474e-07,
+    "generator_loss": 0.04731376217651504,
+    "pixel_loss": 0.047230389575476636,
+    "adversarial_loss": 0.08337254546219777,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.142451473444794,
+    "validation_ssim": 0.8763473266108744,
+    "epoch": 62.0
+  },
+  {
+    "discriminator_loss": 2.71248008615062e-07,
+    "generator_loss": 0.047165647123467956,
+    "pixel_loss": 0.04709565497102232,
+    "adversarial_loss": 0.06999212035476991,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.16677582226384,
+    "validation_ssim": 0.8765940939721047,
+    "epoch": 63.0
+  },
+  {
+    "discriminator_loss": 5.757574777358209e-07,
+    "generator_loss": 0.04756873239973896,
+    "pixel_loss": 0.04731988462173836,
+    "adversarial_loss": 0.24884778383510844,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.11489739714431,
+    "validation_ssim": 0.8757417678354942,
+    "epoch": 64.0
+  },
+  {
+    "discriminator_loss": 1.509968705705256e-07,
+    "generator_loss": 0.04731319057821886,
+    "pixel_loss": 0.04719988238119806,
+    "adversarial_loss": 0.11330815187647383,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.14873419570158,
+    "validation_ssim": 0.876652915202523,
+    "epoch": 65.0
+  },
+  {
+    "discriminator_loss": 2.2220641948958063e-07,
+    "generator_loss": 0.047173330311618085,
+    "pixel_loss": 0.047082960108204355,
+    "adversarial_loss": 0.0903701707923566,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.153503660553337,
+    "validation_ssim": 0.8764273401011509,
+    "epoch": 66.0
+  },
+  {
+    "discriminator_loss": 9.029490459834894e-08,
+    "generator_loss": 0.04710075358265109,
+    "pixel_loss": 0.04699469352818833,
+    "adversarial_loss": 0.10606005146757921,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.18161782860517,
+    "validation_ssim": 0.8769911507315842,
+    "epoch": 67.0
+  },
+  {
+    "discriminator_loss": 0.0008343132259786919,
+    "generator_loss": 0.04759842257060772,
+    "pixel_loss": 0.04726093792087028,
+    "adversarial_loss": 0.3374846021359237,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.098518042125935,
+    "validation_ssim": 0.876010452307797,
+    "epoch": 68.0
+  },
+  {
+    "discriminator_loss": 1.7260746515337574e-05,
+    "generator_loss": 0.047831325612983595,
+    "pixel_loss": 0.04746828741236539,
+    "adversarial_loss": 0.3630381978343756,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.111255506976086,
+    "validation_ssim": 0.8757004375889389,
+    "epoch": 69.0
+  },
+  {
+    "discriminator_loss": 1.1768691502638465e-05,
+    "generator_loss": 0.04771369737933222,
+    "pixel_loss": 0.04740657314316591,
+    "adversarial_loss": 0.3071242076192681,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.124894600821513,
+    "validation_ssim": 0.8756509902005345,
+    "epoch": 70.0
+  },
+  {
+    "discriminator_loss": 7.780040076740832e-06,
+    "generator_loss": 0.04752071532274044,
+    "pixel_loss": 0.04725940904038342,
+    "adversarial_loss": 0.2613062506845824,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.118000747890466,
+    "validation_ssim": 0.8753333843495367,
+    "epoch": 71.0
+  },
+  {
+    "discriminator_loss": 6.293918499261085e-06,
+    "generator_loss": 0.047503210950034395,
+    "pixel_loss": 0.04725478780602657,
+    "adversarial_loss": 0.24842311333448633,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.10123182005542,
+    "validation_ssim": 0.8751555027472737,
+    "epoch": 72.0
+  },
+  {
+    "discriminator_loss": 4.529090745141563e-06,
+    "generator_loss": 0.04748897432939371,
+    "pixel_loss": 0.04724511084464355,
+    "adversarial_loss": 0.24386343394104595,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.111049783772774,
+    "validation_ssim": 0.8755068899703483,
+    "epoch": 73.0
+  },
+  {
+    "discriminator_loss": 3.538387913469033e-06,
+    "generator_loss": 0.04750860789657322,
+    "pixel_loss": 0.047270891260366384,
+    "adversarial_loss": 0.23771665007473747,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.092267713653293,
+    "validation_ssim": 0.875502779571896,
+    "epoch": 74.0
+  },
+  {
+    "discriminator_loss": 2.591474009559768e-06,
+    "generator_loss": 0.047352923681281696,
+    "pixel_loss": 0.047122031132180914,
+    "adversarial_loss": 0.23089249686559496,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.073884253719072,
+    "validation_ssim": 0.8753477094747794,
+    "epoch": 75.0
+  },
+  {
+    "discriminator_loss": 2.0834344066010778e-06,
+    "generator_loss": 0.0472374421456311,
+    "pixel_loss": 0.047040529312154966,
+    "adversarial_loss": 0.19691284490605138,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.103865558730263,
+    "validation_ssim": 0.875722670223883,
+    "epoch": 76.0
+  },
+  {
+    "discriminator_loss": 1.2953876493948939e-06,
+    "generator_loss": 0.04723914325621545,
+    "pixel_loss": 0.04704744252016005,
+    "adversarial_loss": 0.19170063471469634,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.13563309491654,
+    "validation_ssim": 0.8764285856521222,
+    "epoch": 77.0
+  },
+  {
+    "discriminator_loss": 9.894962267466545e-07,
+    "generator_loss": 0.047257540639714046,
+    "pixel_loss": 0.047067541748626866,
+    "adversarial_loss": 0.18999886565273333,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.13052017891588,
+    "validation_ssim": 0.8762049362024992,
+    "epoch": 78.0
+  },
+  {
+    "discriminator_loss": 7.540880384936321e-07,
+    "generator_loss": 0.047141271464548,
+    "pixel_loss": 0.04694935352378725,
+    "adversarial_loss": 0.19191797595994178,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.140627967836657,
+    "validation_ssim": 0.8759120520907533,
+    "epoch": 79.0
+  },
+  {
+    "discriminator_loss": 5.391143618653508e-07,
+    "generator_loss": 0.047138204476809435,
+    "pixel_loss": 0.04695206930311156,
+    "adversarial_loss": 0.18613517278415767,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.11809845484283,
+    "validation_ssim": 0.8759560556167246,
+    "epoch": 80.0
+  },
+  {
+    "discriminator_loss": 3.5471584552337674e-07,
+    "generator_loss": 0.04709246961511992,
+    "pixel_loss": 0.046922115123374415,
+    "adversarial_loss": 0.17035448331716752,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.13973010600518,
+    "validation_ssim": 0.8764216460562886,
+    "epoch": 81.0
+  },
+  {
+    "discriminator_loss": 2.6814714879883366e-07,
+    "generator_loss": 0.04702565933452295,
+    "pixel_loss": 0.046878664912842746,
+    "adversarial_loss": 0.14699440475521253,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.202634477028017,
+    "validation_ssim": 0.8773111264263788,
+    "epoch": 82.0
+  },
+  {
+    "discriminator_loss": 1.5584731604285787e-07,
+    "generator_loss": 0.04689821608172447,
+    "pixel_loss": 0.04677695646497786,
+    "adversarial_loss": 0.12125958231595321,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.1791469035262,
+    "validation_ssim": 0.877027123270114,
+    "epoch": 83.0
+  },
+  {
+    "discriminator_loss": 1.1339397177363163e-07,
+    "generator_loss": 0.04688501798876035,
+    "pixel_loss": 0.04675964357859767,
+    "adversarial_loss": 0.12537449465952494,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.15639465854353,
+    "validation_ssim": 0.8762916051293129,
+    "epoch": 84.0
+  },
+  {
+    "discriminator_loss": 8.178131374166601e-08,
+    "generator_loss": 0.046833313783806854,
+    "pixel_loss": 0.04671523185035902,
+    "adversarial_loss": 0.11808188146241756,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.13832001206664,
+    "validation_ssim": 0.8764575885107783,
+    "epoch": 85.0
+  },
+  {
+    "discriminator_loss": 9.179318751272947e-07,
+    "generator_loss": 0.04678799288192588,
+    "pixel_loss": 0.04668500137363259,
+    "adversarial_loss": 0.10299159306339002,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.195605825742724,
+    "validation_ssim": 0.8770935657850073,
+    "epoch": 86.0
+  },
+  {
+    "discriminator_loss": 9.027379874189894e-06,
+    "generator_loss": 0.046721842139959335,
+    "pixel_loss": 0.04663857917987173,
+    "adversarial_loss": 0.08326300526075171,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.189275142764746,
+    "validation_ssim": 0.8768806112287243,
+    "epoch": 87.0
+  },
+  {
+    "discriminator_loss": 9.827777219462121e-07,
+    "generator_loss": 0.0466499956639585,
+    "pixel_loss": 0.04657986808600262,
+    "adversarial_loss": 0.07012752692047027,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.165527597808182,
+    "validation_ssim": 0.87715694140104,
+    "epoch": 88.0
+  },
+  {
+    "discriminator_loss": 4.209339327823882e-07,
+    "generator_loss": 0.04666724221028366,
+    "pixel_loss": 0.04660452929215991,
+    "adversarial_loss": 0.06271295482799795,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.21700846284961,
+    "validation_ssim": 0.8778423877132551,
+    "epoch": 89.0
+  },
+  {
+    "discriminator_loss": 2.6145257981587086e-07,
+    "generator_loss": 0.04660228522638537,
+    "pixel_loss": 0.04654918311105075,
+    "adversarial_loss": 0.053102109381624824,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.20956125808493,
+    "validation_ssim": 0.8767202312643771,
+    "epoch": 90.0
+  },
+  {
+    "discriminator_loss": 1.6817762219050765e-07,
+    "generator_loss": 0.04653345977508578,
+    "pixel_loss": 0.04648447689789756,
+    "adversarial_loss": 0.0489828472492688,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.21005231976953,
+    "validation_ssim": 0.8777219260773594,
+    "epoch": 91.0
+  },
+  {
+    "discriminator_loss": 1.0058919539579619e-07,
+    "generator_loss": 0.04651988083363263,
+    "pixel_loss": 0.046467147257317785,
+    "adversarial_loss": 0.05273363725055425,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.19380410029669,
+    "validation_ssim": 0.8766980170520661,
+    "epoch": 92.0
+  },
+  {
+    "discriminator_loss": 5.821271482885611e-08,
+    "generator_loss": 0.046525764984097384,
+    "pixel_loss": 0.04647724864347958,
+    "adversarial_loss": 0.048516308289971256,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.223395916630906,
+    "validation_ssim": 0.8776547029652865,
+    "epoch": 93.0
+  },
+  {
+    "discriminator_loss": 5.39345095446462e-08,
+    "generator_loss": 0.04649386394203221,
+    "pixel_loss": 0.04644021122665665,
+    "adversarial_loss": 0.05365264143976236,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.179569718080344,
+    "validation_ssim": 0.8765218267977596,
+    "epoch": 94.0
+  },
+  {
+    "discriminator_loss": 0.00042918282242454265,
+    "generator_loss": 0.0466902649932058,
+    "pixel_loss": 0.0465855489701118,
+    "adversarial_loss": 0.10471593244721777,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.013133541009925,
+    "validation_ssim": 0.8747869157681866,
+    "epoch": 95.0
+  },
+  {
+    "discriminator_loss": 1.0637301568131913e-05,
+    "generator_loss": 0.046923354552007336,
+    "pixel_loss": 0.046804701511275804,
+    "adversarial_loss": 0.11865301962440199,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.041651113024415,
+    "validation_ssim": 0.8756742325801625,
+    "epoch": 96.0
+  },
+  {
+    "discriminator_loss": 9.342289936063432e-06,
+    "generator_loss": 0.04682827244344619,
+    "pixel_loss": 0.04671140752924889,
+    "adversarial_loss": 0.1168649248373201,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.001541021866636,
+    "validation_ssim": 0.8743067154635744,
+    "epoch": 97.0
+  },
+  {
+    "discriminator_loss": 1.5654586870282806e-06,
+    "generator_loss": 0.04666564002376914,
+    "pixel_loss": 0.046546133515827974,
+    "adversarial_loss": 0.1195064720908516,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.094631213644657,
+    "validation_ssim": 0.8759858496070967,
+    "epoch": 98.0
+  },
+  {
+    "discriminator_loss": 1.205381439252215e-06,
+    "generator_loss": 0.046726759326748316,
+    "pixel_loss": 0.04661219591184127,
+    "adversarial_loss": 0.11456341871986417,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.103429830917758,
+    "validation_ssim": 0.8768338591961627,
+    "epoch": 99.0
+  },
+  {
+    "discriminator_loss": 1.00769167023082e-06,
+    "generator_loss": 0.04667361308433606,
+    "pixel_loss": 0.046560321462188546,
+    "adversarial_loss": 0.11329157273031579,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.076773966120225,
+    "validation_ssim": 0.876206593539441,
+    "epoch": 100.0
+  },
+  {
+    "discriminator_loss": 1.0349394370289762e-06,
+    "generator_loss": 0.04645699090337685,
+    "pixel_loss": 0.04635061138552376,
+    "adversarial_loss": 0.10637947773950489,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.122631299191784,
+    "validation_ssim": 0.8766308191067781,
+    "epoch": 101.0
+  },
+  {
+    "discriminator_loss": 7.078456384570122e-07,
+    "generator_loss": 0.046456660644116576,
+    "pixel_loss": 0.046352569103497145,
+    "adversarial_loss": 0.1040915723473773,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.093665515546707,
+    "validation_ssim": 0.8766848613286353,
+    "epoch": 102.0
+  },
+  {
+    "discriminator_loss": 6.263849516512358e-07,
+    "generator_loss": 0.04634985013045691,
+    "pixel_loss": 0.04624400472743463,
+    "adversarial_loss": 0.10584537336298593,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.13364968836666,
+    "validation_ssim": 0.8770634498168663,
+    "epoch": 103.0
+  },
+  {
+    "discriminator_loss": 5.216316092830857e-07,
+    "generator_loss": 0.04641015420115438,
+    "pixel_loss": 0.04631013194563396,
+    "adversarial_loss": 0.10002227963340658,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.099834633911623,
+    "validation_ssim": 0.8767717174526205,
+    "epoch": 104.0
+  },
+  {
+    "discriminator_loss": 3.962289653551049e-07,
+    "generator_loss": 0.04632043543466524,
+    "pixel_loss": 0.04622299251250688,
+    "adversarial_loss": 0.09744293933953119,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.194579374411152,
+    "validation_ssim": 0.8777834999120806,
+    "epoch": 105.0
+  },
+  {
+    "discriminator_loss": 3.170132330030537e-07,
+    "generator_loss": 0.0462676256937762,
+    "pixel_loss": 0.04617364837395769,
+    "adversarial_loss": 0.09397729299428811,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.142033490367005,
+    "validation_ssim": 0.8771383400395004,
+    "epoch": 106.0
+  },
+  {
+    "discriminator_loss": 2.060797762616397e-07,
+    "generator_loss": 0.04616236281941477,
+    "pixel_loss": 0.046074405037144196,
+    "adversarial_loss": 0.08795773683911066,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.112011055248374,
+    "validation_ssim": 0.8767885742642346,
+    "epoch": 107.0
+  },
+  {
+    "discriminator_loss": 1.5935266562213277e-07,
+    "generator_loss": 0.046284490512059545,
+    "pixel_loss": 0.04619723570167506,
+    "adversarial_loss": 0.08725479957580907,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.154035266099296,
+    "validation_ssim": 0.8771597921284862,
+    "epoch": 108.0
+  },
+  {
+    "discriminator_loss": 1.1549880507917995e-07,
+    "generator_loss": 0.04624263082756354,
+    "pixel_loss": 0.046161590230499094,
+    "adversarial_loss": 0.0810405482834253,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.175213110887434,
+    "validation_ssim": 0.87759269460229,
+    "epoch": 109.0
+  },
+  {
+    "discriminator_loss": 8.022713981743912e-08,
+    "generator_loss": 0.046139430690204514,
+    "pixel_loss": 0.04606159088391287,
+    "adversarial_loss": 0.07783980084140185,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.161029661053472,
+    "validation_ssim": 0.8773013196610271,
+    "epoch": 110.0
+  },
+  {
+    "discriminator_loss": 5.4510910802347236e-08,
+    "generator_loss": 0.04619798562502793,
+    "pixel_loss": 0.04612522303929985,
+    "adversarial_loss": 0.07276257585232443,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.20090409712954,
+    "validation_ssim": 0.8777375977621895,
+    "epoch": 111.0
+  },
+  {
+    "discriminator_loss": 4.3106617045438e-08,
+    "generator_loss": 0.046087775315374224,
+    "pixel_loss": 0.0460181047398074,
+    "adversarial_loss": 0.06967061719827802,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.17091614453576,
+    "validation_ssim": 0.877553672153333,
+    "epoch": 112.0
+  },
+  {
+    "discriminator_loss": 4.6769522969506435e-08,
+    "generator_loss": 0.046048468966197145,
+    "pixel_loss": 0.04600234310700422,
+    "adversarial_loss": 0.04612590687130618,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.235453968162833,
+    "validation_ssim": 0.878098420822255,
+    "epoch": 113.0
+  },
+  {
+    "discriminator_loss": 2.132274773811911e-08,
+    "generator_loss": 0.046042475326355005,
+    "pixel_loss": 0.045995921396081975,
+    "adversarial_loss": 0.04655396232226688,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.227930646474025,
+    "validation_ssim": 0.8781675406630556,
+    "epoch": 114.0
+  },
+  {
+    "discriminator_loss": 1.5951499148885746e-08,
+    "generator_loss": 0.04607774476736869,
+    "pixel_loss": 0.04602852964768437,
+    "adversarial_loss": 0.0492150663817168,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.20943510863611,
+    "validation_ssim": 0.8781228246985244,
+    "epoch": 115.0
+  },
+  {
+    "discriminator_loss": 1.2211265133227328e-08,
+    "generator_loss": 0.0459663362421074,
+    "pixel_loss": 0.04591738303488169,
+    "adversarial_loss": 0.04895316092430862,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.229300803012677,
+    "validation_ssim": 0.8783808442761584,
+    "epoch": 116.0
+  },
+  {
+    "discriminator_loss": 1.9008409432657546e-08,
+    "generator_loss": 0.04598124975973692,
+    "pixel_loss": 0.0459229971882607,
+    "adversarial_loss": 0.05825260427372162,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.240965695409848,
+    "validation_ssim": 0.8782764005476613,
+    "epoch": 117.0
+  },
+  {
+    "discriminator_loss": 1.0029462523269193e-08,
+    "generator_loss": 0.046045008329487803,
+    "pixel_loss": 0.04598405407501497,
+    "adversarial_loss": 0.060954271367935194,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.236592820297847,
+    "validation_ssim": 0.8778835657297865,
+    "epoch": 118.0
+  },
+  {
+    "discriminator_loss": 7.3011414646039506e-09,
+    "generator_loss": 0.045997425057741154,
+    "pixel_loss": 0.045928884925251365,
+    "adversarial_loss": 0.06854013650542003,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.219031276282184,
+    "validation_ssim": 0.8781076978387343,
+    "epoch": 119.0
+  },
+  {
+    "discriminator_loss": 5.080911213443e-09,
+    "generator_loss": 0.04600848105541273,
+    "pixel_loss": 0.04595004046885537,
+    "adversarial_loss": 0.05844062297127308,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.233510444376673,
+    "validation_ssim": 0.8782904030634044,
+    "epoch": 120.0
+  },
+  {
+    "discriminator_loss": 3.654840345554546e-09,
+    "generator_loss": 0.0459420254822276,
+    "pixel_loss": 0.04588662243546934,
+    "adversarial_loss": 0.055403102276830755,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.23695460078847,
+    "validation_ssim": 0.8779692219069269,
+    "epoch": 121.0
+  },
+  {
+    "discriminator_loss": 3.377311071112245e-09,
+    "generator_loss": 0.045933276666781965,
+    "pixel_loss": 0.04588459869126194,
+    "adversarial_loss": 0.04867800433071261,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.24910668717589,
+    "validation_ssim": 0.8783309324632501,
+    "epoch": 122.0
+  },
+  {
+    "discriminator_loss": 2.275735877871539e-09,
+    "generator_loss": 0.04590422876798321,
+    "pixel_loss": 0.04585390644505577,
+    "adversarial_loss": 0.05032232680643527,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.234529565173553,
+    "validation_ssim": 0.8784047183181863,
+    "epoch": 123.0
+  },
+  {
+    "discriminator_loss": 1.8530381966208947e-09,
+    "generator_loss": 0.045994406473158424,
+    "pixel_loss": 0.04594750733976719,
+    "adversarial_loss": 0.04689925430305195,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.257386316579723,
+    "validation_ssim": 0.8784388771920381,
+    "epoch": 124.0
+  },
+  {
+    "discriminator_loss": 1.481576653147798e-09,
+    "generator_loss": 0.046005177403930946,
+    "pixel_loss": 0.04595723628015778,
+    "adversarial_loss": 0.04794119969650804,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.203532336674048,
+    "validation_ssim": 0.8781235794459671,
+    "epoch": 125.0
+  },
+  {
+    "discriminator_loss": 1.7505658961255466e-09,
+    "generator_loss": 0.04588576581937536,
+    "pixel_loss": 0.0458407308981036,
+    "adversarial_loss": 0.045034928779974365,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.229816227511055,
+    "validation_ssim": 0.8782822121627281,
+    "epoch": 126.0
+  },
+  {
+    "discriminator_loss": 1.4346102229122498e-09,
+    "generator_loss": 0.04585381752269657,
+    "pixel_loss": 0.04581222401606319,
+    "adversarial_loss": 0.04159346020921937,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.24721048978501,
+    "validation_ssim": 0.8787985537462609,
+    "epoch": 127.0
+  },
+  {
+    "discriminator_loss": 1.2211265448034407e-09,
+    "generator_loss": 0.04585618122686288,
+    "pixel_loss": 0.045814963030951755,
+    "adversarial_loss": 0.04121821742600903,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.25927252757177,
+    "validation_ssim": 0.8784212917217515,
+    "epoch": 128.0
+  },
+  {
+    "discriminator_loss": 9.350584594420605e-10,
+    "generator_loss": 0.045839553580413916,
+    "pixel_loss": 0.045795241555460546,
+    "adversarial_loss": 0.044311956141176057,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.24851994390168,
+    "validation_ssim": 0.87847023251336,
+    "epoch": 129.0
+  },
+  {
+    "discriminator_loss": 7.386534857820109e-10,
+    "generator_loss": 0.045848751153508706,
+    "pixel_loss": 0.04580372694271342,
+    "adversarial_loss": 0.04502418046352857,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.258838866645508,
+    "validation_ssim": 0.8785844562354862,
+    "epoch": 130.0
+  },
+  {
+    "discriminator_loss": 7.685412118232918e-10,
+    "generator_loss": 0.04582448385463744,
+    "pixel_loss": 0.045776805411864144,
+    "adversarial_loss": 0.04767837165974956,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.236036476587643,
+    "validation_ssim": 0.878486745919583,
+    "epoch": 131.0
+  },
+  {
+    "discriminator_loss": 6.361813306018139e-10,
+    "generator_loss": 0.04582897358517934,
+    "pixel_loss": 0.04578384952379503,
+    "adversarial_loss": 0.04512410190031146,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.252350529365025,
+    "validation_ssim": 0.8786081198258238,
+    "epoch": 132.0
+  },
+  {
+    "discriminator_loss": 7.386534710214526e-10,
+    "generator_loss": 0.04589654076364116,
+    "pixel_loss": 0.045851512910814206,
+    "adversarial_loss": 0.04502787450301784,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.25487599172076,
+    "validation_ssim": 0.8785831781930685,
+    "epoch": 133.0
+  },
+  {
+    "discriminator_loss": 5.209001545925726e-10,
+    "generator_loss": 0.04583852883524403,
+    "pixel_loss": 0.04579316915618656,
+    "adversarial_loss": 0.045359638953490725,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.250223695224488,
+    "validation_ssim": 0.8786130967539042,
+    "epoch": 134.0
+  },
+  {
+    "discriminator_loss": 5.593272015556701e-10,
+    "generator_loss": 0.04588381788108957,
+    "pixel_loss": 0.04583732631794019,
+    "adversarial_loss": 0.04649153951459423,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.275048391144928,
+    "validation_ssim": 0.8786588195093517,
+    "epoch": 135.0
+  },
+  {
+    "discriminator_loss": 6.532598726844325e-10,
+    "generator_loss": 0.045803084651429876,
+    "pixel_loss": 0.045757356051216835,
+    "adversarial_loss": 0.04572861659151094,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.266222627891644,
+    "validation_ssim": 0.8784946351432418,
+    "epoch": 136.0
+  },
+  {
+    "discriminator_loss": 5.038214585420618e-10,
+    "generator_loss": 0.04577207962173787,
+    "pixel_loss": 0.04572490797001858,
+    "adversarial_loss": 0.04717163165662982,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.245290521290062,
+    "validation_ssim": 0.8785733061374958,
+    "epoch": 137.0
+  },
+  {
+    "discriminator_loss": 4.397763584687185e-10,
+    "generator_loss": 0.04582513274470168,
+    "pixel_loss": 0.04577818413219684,
+    "adversarial_loss": 0.04694862076559005,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.272194093908016,
+    "validation_ssim": 0.878730521250577,
+    "epoch": 138.0
+  },
+  {
+    "discriminator_loss": 4.611247277047568e-10,
+    "generator_loss": 0.0458305111736657,
+    "pixel_loss": 0.0457819337212083,
+    "adversarial_loss": 0.048577480006397285,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.243792776185916,
+    "validation_ssim": 0.87842065138586,
+    "epoch": 139.0
+  },
+  {
+    "discriminator_loss": 4.4831570687571254e-10,
+    "generator_loss": 0.045771463979622694,
+    "pixel_loss": 0.04572299108506957,
+    "adversarial_loss": 0.04847286969508688,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.253094508975053,
+    "validation_ssim": 0.8786149237190745,
+    "epoch": 140.0
+  },
+  {
+    "discriminator_loss": 6.020239094886605e-10,
+    "generator_loss": 0.04579256050139239,
+    "pixel_loss": 0.04574338217348629,
+    "adversarial_loss": 0.04917832357771588,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.255614025276596,
+    "validation_ssim": 0.8785322069165632,
+    "epoch": 141.0
+  },
+  {
+    "discriminator_loss": 3.5523680644006193e-09,
+    "generator_loss": 0.04588069059915392,
+    "pixel_loss": 0.045801450284384725,
+    "adversarial_loss": 0.07924031343492532,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.229716888029984,
+    "validation_ssim": 0.8780176465916313,
+    "epoch": 142.0
+  },
+  {
+    "discriminator_loss": 1.5456209566599797e-09,
+    "generator_loss": 0.04578727313816377,
+    "pixel_loss": 0.0457298374940297,
+    "adversarial_loss": 0.05743560311317785,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.24616791313475,
+    "validation_ssim": 0.8785849742375824,
+    "epoch": 143.0
+  },
+  {
+    "discriminator_loss": 4.525853790432704e-10,
+    "generator_loss": 0.045795894512388975,
+    "pixel_loss": 0.04574602051373881,
+    "adversarial_loss": 0.04987399413498562,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.267847691112244,
+    "validation_ssim": 0.8786551935629734,
+    "epoch": 144.0
+  },
+  {
+    "discriminator_loss": 2.817984383885683e-10,
+    "generator_loss": 0.045770258170400445,
+    "pixel_loss": 0.045715555900915986,
+    "adversarial_loss": 0.054702265796526456,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.207791874518676,
+    "validation_ssim": 0.8781760518511944,
+    "epoch": 145.0
+  },
+  {
+    "discriminator_loss": 3.3730419845316627e-10,
+    "generator_loss": 0.04573120631512393,
+    "pixel_loss": 0.04567943816753718,
+    "adversarial_loss": 0.0517681106423324,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.255809387823327,
+    "validation_ssim": 0.8785741866847159,
+    "epoch": 146.0
+  },
+  {
+    "discriminator_loss": 5.123607934609594e-10,
+    "generator_loss": 0.04580286954313431,
+    "pixel_loss": 0.04575109809935947,
+    "adversarial_loss": 0.051771433564986404,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.28505147968381,
+    "validation_ssim": 0.8786622686223566,
+    "epoch": 147.0
+  },
+  {
+    "discriminator_loss": 2.3483203691065965e-10,
+    "generator_loss": 0.04574555115918375,
+    "pixel_loss": 0.04569758931254931,
+    "adversarial_loss": 0.04796179026301235,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.226370891504388,
+    "validation_ssim": 0.8783406793337024,
+    "epoch": 148.0
+  },
+  {
+    "discriminator_loss": 0.0008817595054788636,
+    "generator_loss": 0.04600309193732062,
+    "pixel_loss": 0.04576911913033543,
+    "adversarial_loss": 0.23397280381015773,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.2491911841955,
+    "validation_ssim": 0.8781220942641766,
+    "epoch": 149.0
+  },
+  {
+    "discriminator_loss": 1.1323408063839371e-06,
+    "generator_loss": 0.04664074655803705,
+    "pixel_loss": 0.045925359985121345,
+    "adversarial_loss": 0.7153865388437124,
+    "perceptual_loss": 0.0,
+    "validation_psnr": 27.213369518117215,
+    "validation_ssim": 0.87775592420136,
+    "epoch": 150.0
+  }
+]

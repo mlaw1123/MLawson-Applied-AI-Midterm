@@ -153,7 +153,10 @@ def test_metrics_apply_sigmoid_to_logits() -> None:
     }
 
 
-def test_checkpoint_round_trip_restores_all_required_state(tmp_path: Path) -> None:
+def test_checkpoint_round_trip_restores_all_required_state(
+    tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
     seed_everything(42)
     model = nn.Linear(2, 1)
     optimizer = Adam(model.parameters(), lr=0.01)
@@ -179,6 +182,14 @@ def test_checkpoint_round_trip_restores_all_required_state(tmp_path: Path) -> No
     )
     with torch.no_grad():
         model.weight.zero_()
+    original_load = torch.load
+    map_locations: list[object] = []
+
+    def recording_load(*args: object, **kwargs: object) -> object:
+        map_locations.append(kwargs.get("map_location"))
+        return original_load(*args, **kwargs)
+
+    monkeypatch.setattr(torch, "load", recording_load)
     checkpoint = load_classifier_checkpoint(
         checkpoint_path,
         model=model,
@@ -193,6 +204,7 @@ def test_checkpoint_round_trip_restores_all_required_state(tmp_path: Path) -> No
     assert checkpoint["random_seed"] == 42
     assert checkpoint["configuration"] == {"epochs": 20}
     assert checkpoint["scheduler_state"] is not None
+    assert map_locations[-1] == "cpu"
     assert "data_loader_state" in checkpoint
     assert checkpoint["rng_state"] is not None
 

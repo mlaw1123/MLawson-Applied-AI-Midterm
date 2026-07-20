@@ -57,8 +57,10 @@ artifacts/models/**
 # Generated reports and logs
 reports/figures/**
 !reports/figures/.gitkeep
+!reports/figures/confusion_matrices.png
+!reports/figures/roc_curves.png
+notebooks/local/
 logs/
 runs/
 wandb/
 tensorboard/
-

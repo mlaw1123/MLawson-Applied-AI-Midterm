@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import random
+import re
 from collections.abc import Mapping
 from copy import deepcopy
 from pathlib import Path
@@ -164,7 +165,9 @@ def load_classifier_checkpoint(
         raise FileNotFoundError(f"Classifier checkpoint not found: {checkpoint_path}")
     checkpoint: dict[str, Any] = torch.load(
         checkpoint_path,
-        map_location=device,
+        # Preserve CPU RNG and DataLoader generator byte tensors. Model and
+        # optimizer state is copied to the device of the positioned model.
+        map_location="cpu",
         weights_only=False,
     )
     required = {
@@ -211,22 +214,31 @@ def fit_classifier(
     configuration: Mapping[str, Any],
     scheduler: LRScheduler | None = None,
     resume_from: str | Path | None = None,
+    checkpoint_prefix: str = "classifier_a",
 ) -> TrainingHistory:
-    """Train Model A, saving latest and best-validation-F1 checkpoints."""
+    """Train a classifier, saving separate latest and best-F1 checkpoints."""
     if epochs <= 0:
         raise ValueError("epochs must be greater than zero")
+    if re.fullmatch(r"[a-z0-9_]+", checkpoint_prefix) is None:
+        raise ValueError("checkpoint_prefix must use lowercase letters, digits, or _")
     seed_everything(random_seed)
     model.to(device)
     destination = Path(checkpoint_dir).expanduser()
-    latest_path = destination / "classifier_a_latest.pt"
-    best_path = destination / "classifier_a_best.pt"
+    latest_path = destination / f"{checkpoint_prefix}_latest.pt"
+    best_path = destination / f"{checkpoint_prefix}_best.pt"
     history: TrainingHistory = {"train": [], "validation": []}
     start_epoch = 1
     best_validation_f1 = float("-inf")
 
     if resume_from is not None:
+        resume_path = Path(resume_from).expanduser()
+        if not resume_path.name.startswith(f"{checkpoint_prefix}_"):
+            raise ValueError(
+                "Resume checkpoint does not belong to the requested classifier: "
+                f"expected prefix {checkpoint_prefix}, got {resume_path.name}"
+            )
         checkpoint = load_classifier_checkpoint(
-            resume_from,
+            resume_path,
             model=model,
             optimizer=optimizer,
             scheduler=scheduler,
@@ -236,6 +248,10 @@ def fit_classifier(
             raise ValueError("Checkpoint class mapping does not match current data")
         if checkpoint["random_seed"] != random_seed:
             raise ValueError("Checkpoint random seed does not match current run")
+        if checkpoint["configuration"] != dict(configuration):
+            raise ValueError(
+                "Checkpoint configuration does not match current run or data provenance"
+            )
         history = checkpoint["history"]
         start_epoch = int(checkpoint["epoch"]) + 1
         best_validation_f1 = float(checkpoint["best_validation_f1"])
